@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索筛选-最新国产电视剧-最新电视剧大全-精选内容持续更新</title>
+  <meta name="description" content="最新国产电视剧全站搜索，支持按片名、年份、地区、类型和标签筛选。">
+  <meta name="keywords" content="最新国产电视剧,国产电视剧,最新电视剧,精选剧集,热播剧集,持续更新,搜索,筛选">
+  <meta name="applicable-device" content="pc,mobile">
+  <meta name="renderer" content="webkit">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="国产热剧首页">
+      <span class="logo-mark">▶</span>
+      <span class="logo-text">国产热剧</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="categories.html">分类</a>
+      <a class="nav-link" href="ranking.html">排行榜</a>
+      <a class="nav-link active" href="search.html">搜索</a>
+      <a class="nav-link" href="about.html">关于</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get">
+      <label class="sr-only" for="header-q">搜索视频</label>
+      <input id="header-q" name="q" type="search" placeholder="搜索视频..." autocomplete="off">
+      <button type="submit" aria-label="搜索">⌕</button>
+    </form>
+    <button class="mobile-toggle" type="button" aria-label="打开导航" aria-expanded="false">☰</button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动端导航">
+    <a href="index.html">首页</a>
+    <a href="categories.html">分类</a>
+    <a href="ranking.html">排行榜</a>
+    <a href="search.html">搜索</a>
+    <a href="about.html">关于</a>
+  </nav>
+</header>
+<main>
+
+<section class="page-hero search-hero">
+  <div class="container">
+    <span class="eyebrow">搜索 / 筛选</span>
+    <h1>全站搜索</h1>
+    <p>可按片名、地区、年份、类型、题材、标签检索 2000 条影片内容。</p>
+  </div>
+</section>
+
+<section class="container section search-page" data-search-page>
+  <form class="search-control" data-search-form>
+    <label>
+      <span>关键词</span>
+      <input type="search" name="q" data-search-input placeholder="输入片名、地区、类型、标签或年份">
+    </label>
+    <label>
+      <span>排序</span>
+      <select data-search-sort>
+        <option value="relevance">相关度</option>
+        <option value="views">热度优先</option>
+        <option value="year">年份优先</option>
+        <option value="title">片名排序</option>
+      </select>
+    </label>
+    <button class="btn btn-primary" type="submit">搜索</button>
+  </form>
+  <p class="filter-count" data-search-count>输入关键词后显示结果，也可以直接浏览全部内容。</p>
+  <div class="movie-grid grid-5" data-search-results></div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <section>
+      <a class="footer-logo" href="index.html">
+        <span class="logo-mark">▶</span>
+        <span>国产热剧</span>
+      </a>
+      <p>最新国产电视剧栏目关注近期更新剧集，覆盖多题材内容与热播片单。全站内容以静态 HTML 输出，便于浏览与检索。</p>
+    </section>
+    <section>
+      <h3>快速导航</h3>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="categories.html">影视分类</a></li>
+        <li><a href="ranking.html">热播排行榜</a></li>
+        <li><a href="search.html">搜索筛选</a></li>
+      </ul>
+    </section>
+    <section>
+      <h3>精选分类</h3>
+      <ul>
+          <li><a href="category-hot-drama.html">热播片单</a></li>
+          <li><a href="category-new-release.html">新剧速递</a></li>
+          <li><a href="category-chosen-series.html">精选剧集</a></li>
+          <li><a href="category-city-love.html">都市爱情</a></li>
+          <li><a href="category-suspense-zone.html">悬疑推理</a></li>
+          <li><a href="category-action-adventure.html">动作冒险</a></li>
+      </ul>
+    </section>
+    <section>
+      <h3>更新说明</h3>
+      <p>覆盖电影、剧集、动画、纪录与综艺等多种类型，推荐区、分类页与详情页形成完整内链。</p>
+    </section>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 国产热剧 · 精选内容持续更新</span>
+  </div>
+</footer>
+<script defer src="assets/movies-data.js"></script>
+<script defer src="assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
